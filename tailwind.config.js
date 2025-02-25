@@ -10,6 +10,11 @@ export default {
             }
         }
     },
+    variants: {
+        extend: {
+            display: ["group-hover"],
+        },
+    },
     darkmode: "media",
     plugins: [],
 }
